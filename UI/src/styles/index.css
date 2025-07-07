@@ -1,0 +1,16 @@
+.table-container {
+    overflow-x: auto; /* Enable horizontal scrolling */
+    max-width: 100%; /* Adjust max-width as needed */
+}
+
+.table {
+    width: 100%; /* Ensure table takes full width of its container */
+    min-width: 800px; /* Set a minimum width for the table */
+    table-layout: fixed; /* Prevent table from resizing based on content */
+}
+
+.table th, .table td {
+    overflow: hidden; /* Hide overflow text */
+    text-overflow: ellipsis; /* Show ellipsis for overflowing text */
+    white-space: nowrap; /* Prevent line breaks */
+}
